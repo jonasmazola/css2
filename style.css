@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    width: 100%;
+    height: 900px;
+}
+
+.menu-esquerdo {
+    width: 20%;
+    height: 901px;
+    background: #5D5D7D;
+    float: right;
+    /* margin-right: 0px; */
+}
+
+.menu-direito {
+    position: absolute;
+    margin: 381px 936px 359px 136px;
+    
+}
+
+.menu-direito h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.menu-direito p {
+    font-size: 20px;
+    color: #9c9ca0;
+}
+
+.botao {
+    color: #ffffff;
+    border: none;
+    width: 269px;
+    height: 62px;
+    margin-top: 20px;
+    border-radius: 21px;
+    font-size: 30px;
+    font-weight: 600;
+    background: #8686c2;
+    
+}
+
+.header {
+    margin-top: 24px;
+}
+
+.header-link {
+    margin: 0px 0px 162px 40px;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:active {
+    color: red;
+}
+
+.imagem-menu {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin-top: 216px;
+    margin-left: 75%;
+}
+
+
+@media (max-width: 600px) {
+    .menu-direito {
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        height: 350px;
+        background: rgb(255, 255, 255);
+    }
+
+    .menu-direito h1 {
+        margin: 28px 54px 0px ;
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .menu-direito p {
+        margin: 5px 39px 0px 40px;
+    }
+
+    .botao {
+        position: absolute;
+        margin: 16px 104px;
+    }
+
+
+    .header {
+        display: none;
+    }
+
+    .imagem-menu {
+        position: absolute;
+        width: 91.3px;
+        height: 261.04;
+        margin-top: 380px;
+        margin-left: 20px;
+    }
+
+    body {
+        background: gray;
+    }
+
+}
